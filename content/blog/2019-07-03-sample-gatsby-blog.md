@@ -7,4 +7,4 @@ tags:
   - sample
 draft: false
 ---
-Sample gatsby blog content
+Sample gatsby blog content updated
