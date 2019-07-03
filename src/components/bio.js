@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { Link, StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
@@ -38,12 +38,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong> who lives and works in Bangalore building useful things.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
+              {/* <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
-              </a>
+              </a> */}
+              <Link to="about">About Me</Link>
             </p>
           </div>
         )
