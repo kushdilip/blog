@@ -1,3 +1,10 @@
+## Tools & References
+- https://www.gatsbyjs.org/blog/2017-11-06-migrate-hugo-gatsby/
+- https://www.netlifycms.org/
+- NETLIFY CMS:
+  - https://www.gatsbyjs.org/docs/sourcing-from-netlify-cms/
+  - https://www.netlifycms.org/docs/add-to-your-site/
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
