@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: `kushdilip's dev journal`,
+    title: `kushdilip`,
     author: `Dilip kushwaha`,
     description: `A personal software development journal`,
     siteUrl: `https://kushdilip.in/blog/`,
@@ -46,12 +46,27 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-draft',
+      options: {
+        /**
+         * moment-timezone
+         * Default is 'UTC'
+         **/
+        timezone: 'Asia/Kolkata',
+        /**
+         * publish draft posts
+         * Default is 'false'
+         **/
+        publishDraft: process.env.NODE_ENV !== 'production',
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-47054792-2`,
       },
     },
     `gatsby-plugin-feed`,
