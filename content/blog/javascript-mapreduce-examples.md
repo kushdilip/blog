@@ -13,7 +13,7 @@ type: post
 draft: true
 ---
 Recently, I was using map and reduce functions in javascript for my project. These are very userful. You can use them for different kind of array manipulations. Here I am listing out various use cases with code snippets.
-<!--more-->
+
 
 #### 1.  Finding unique elements in an Array
 

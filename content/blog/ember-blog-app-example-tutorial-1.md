@@ -16,7 +16,7 @@ type: post
 I have been using [Ember.js](http://emberjs.com/) for approximately 18 months now. A lot has changed since I started learning it. Now things rarely break. There are plenty of [addons](http://emberobserver.com/) for whatever exciting stuff you want to do. 
 There are articles, tutorials, podcasts, conference videos and local ember meetups everywhere. Small startups to big companies are using Ember to builds awesome apps. 
 
-<!--more-->
+
 You will get Ember related content everywhere. I am not here to convince you why Ember is so awesome.
 I am assuming that you are already convinced that Ember is cool and you'd like to give it a try. So my goal with this series is just to get you started smoothly with Ember. Along with tutorials We will learn some interesting tricks as well.
 

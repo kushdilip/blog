@@ -17,7 +17,7 @@ title: Technical debt resources
 type: post
 ---
 You might have heard of the term Technical Debt at some point of time in your programming career. It is defined as making short term compromise in designing software systems and writing code to gain which makes it difficult to maintain the code & software in the future.
-<!--more-->
+
 Recently I was reading a lot of material on software design, architecture. And this term suddenly caught my eye. So I kept on going further to understand how do we create technical debt and what are the stepwise solutions to fix or altogether avoid it.
 
 Here I am sharing all the links and articles I went through or I will go through on this topic. I have categories the articles into separate sections so as keep the flow.

@@ -15,7 +15,7 @@ type: post
 Quoted from zealdocs.org "Zeal is a simple offline API documentation browser inspired by [Dash](http://kapeli.com/dash) (OS X app), available Linux and Windows".
 
 Zeal gives you offline API documentation for most of the Libraries out there like Angular, Backbone, Django and many more. You can check the list on Dash's [website](http://kapeli.com/dash#docsets)
-<!--more-->
+
 
 You can easily install on Ubuntu 14.04 by following steps
 ##### Run following commands in terminal one by one

@@ -11,7 +11,7 @@ draft: true
 
 Here is the list of stuff I discovered myself or found out after exploration over internet. 
 
-<!--more-->
+
 
 ---
 ### Ember

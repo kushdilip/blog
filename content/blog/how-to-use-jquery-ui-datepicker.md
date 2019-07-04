@@ -14,7 +14,7 @@ type: post
 draft: true
 ---
 I was developing a simple java web application where I needed a datepicker. So here is how I used the jQuery UI datepicker in my application.
-<!--more-->
+
 
 - First you need to include jQuery UI javascript and css in head of your html page.
 

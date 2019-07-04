@@ -15,7 +15,7 @@ type: post
 ---
 I was looking for a nice and elegant theme for my newly created Ghost Blog.
 Finally, I selected few of them. I am sharing here the full list and corresponding github links. All these themes are free and open source. The github repositories have full description about how to install and configure the respective themes.
-<!--more-->
+
 
  I felt, all these themes are simple but very intiutive.
 

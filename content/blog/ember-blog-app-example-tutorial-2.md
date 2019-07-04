@@ -17,7 +17,7 @@ ember blog app tutorial part 2:
   - integrate purecss
   - editing data - actions.
 
-<!--more-->
+
 
 Deploy to github
 	- npm install -g gulp-cli  

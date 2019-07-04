@@ -13,36 +13,31 @@ Ember-cli provides `addAddonsToProject` api method for addon developers to insta
 
 So here is the code to support your addon users who are using old or newer versions of ember-cli.
 
-
-<!--more-->
-
-
-
 `my-addon/blueprints/my-addon/index.js`
 ```js
 module.exports = {
   description: 'Blueprint to install dependencies for your ember addon projects',
-  
+
   normalizeEntityName: function() {}, // no-op since we're just adding dependencies
-  
+
   afterInstall: function(options) {
       // sample packages list
       var packages = [
         'ember-cli-mirage',
         'ember-metrics'
       ];
-      
+
       this.installPackages(packages);
   ),
-  
+
   //This is not provided by Ember-cli
-  installPackages: function(options, packages) {
+  installPackages: function(options, packages) { // highlight-line
     if (typeof this.addAddonsToProject === 'function') { // newer versions of ember-cli
       return this.addAddonsToProject({
         packages: packages
       });
     }
-    
+
     return packages.reduce(function (prev, pkg, index) {
       if (index === 1) {
         prev = this.addAddonToProject(prev);

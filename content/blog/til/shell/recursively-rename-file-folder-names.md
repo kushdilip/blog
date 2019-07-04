@@ -10,7 +10,7 @@ title: Recursively rename file folder names
 draft: true
 ---
 
-<!--more-->
+
 
 Below commands will help you recursively rename file & folder names
 

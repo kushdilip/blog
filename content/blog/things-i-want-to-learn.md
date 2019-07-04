@@ -9,7 +9,7 @@ title: Things I want to Learn/Read/Watch
 draft: true
 ---
 
-<!--more-->
+
 
 ## Javascript
 

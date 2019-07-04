@@ -11,7 +11,7 @@ draft: true
 
 Many times we want to have custom styles in our ember templates which are controlled via controller/components.
 
-<!--more-->
+
 
 For above purpose we can form the whole style string as computed property and do the binding in htmlbars, but there are two things we need to take care of 
   1. Don't put quotes around that binding property in template.
